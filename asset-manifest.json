@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/top-10-soccer-players-app-with-ai/static/css/main.9150aace.css",
+    "main.js": "/top-10-soccer-players-app-with-ai/static/js/main.13c72b67.js",
+    "index.html": "/top-10-soccer-players-app-with-ai/index.html",
+    "main.9150aace.css.map": "/top-10-soccer-players-app-with-ai/static/css/main.9150aace.css.map",
+    "main.13c72b67.js.map": "/top-10-soccer-players-app-with-ai/static/js/main.13c72b67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9150aace.css",
+    "static/js/main.13c72b67.js"
+  ]
+}
