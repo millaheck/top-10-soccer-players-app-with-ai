@@ -1,0 +1,29 @@
+
+import { playersData } from './players'; // Import the players array
+
+function DisplayPlayer({ playerId }) {
+    // Find the player with the matching ID
+    const player = playersData.find(player => player.id == playerId);
+
+    // Render player details or a message if not found
+    { if (player) {
+      return (
+        <section>
+                    <h2>{player.firstname} {player.lastname} ({player.age})</h2>
+                    <p><b>Club</b>: {player.club}</p>
+                    <p><b>Nationality</b>: {player.nationality}</p>
+                    <p><b>Trophies</b>: {player.trophies}</p>
+                    <p><b>Bio</b>: {player.bio}</p>
+        </section>
+    );
+}
+else {
+    return (
+        <section>
+            <p>Player not found</p>
+        </section>
+    )
+}
+}
+}
+export default DisplayPlayer;
